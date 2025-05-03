@@ -3,8 +3,9 @@ import React from 'react'
 const End = () => {
   return (
     <div className='fin'>
-        <p>Last Updated</p>
-        <p>3/8/2020</p>
+        <div className="line"></div>
+        <p className='act'>Last Updated</p>
+        <p className='fecha'>3/8/2020</p>
     </div>
   )
 }

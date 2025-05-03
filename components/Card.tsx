@@ -5,7 +5,7 @@ import End from './End'
 
 const Card = () => {
   return (
-    <div>
+    <div className='container'>
         <Header/>
         <Description/>
         <End/>
